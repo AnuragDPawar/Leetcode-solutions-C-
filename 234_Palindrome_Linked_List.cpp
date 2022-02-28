@@ -75,3 +75,12 @@ int main()
     cout<<l.isPalindrome(&head);
     return 0;
 }
+
+/*
+time complexity: O(n)
+space complexity: O(1)
+Algorithm:
+1. Find the mid of the LL
+2. Reverse the second of LL from midpoint i.e. slow pointer.
+3. Check the palindrome with left and right pointer.
+*/
